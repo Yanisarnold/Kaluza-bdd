@@ -2,7 +2,7 @@ import assert from 'assert';
 import { Given, When, Then, Before} from '@cucumber/cucumber';
 import testInputData from "../../data/testData.json";
 import { userMockSearch } from '../../support/userMocks';
-import {expect} from 'chai'
+
 let result: any;
 let nameToSearch: string;
 
