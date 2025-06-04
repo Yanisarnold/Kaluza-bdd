@@ -1,6 +1,6 @@
 ## BDD KALUZA TEST 
 
-Installation & run 
+#Installation & run 
 1. git clone https://github.com/Yanisarnold/Kaluza-bdd.git
 2. npm install ->  Dependencies
 3. run live: npm run test:api
@@ -14,11 +14,11 @@ node -v : node version:v22.8.0
 cucumber.json :  set up 2 profile 
 1. mockTest 
 2. live Test
-# this is done to avoid ambiguity since the test cases are similar with 2 different paths to follow 
+this is done to avoid ambiguity since the test cases are similar with 2 different paths to follow 
 
 The Task
 <!-- API : https://api.agify.io/?name=michael --> example api 
-Documentation: 
+#Documentation: 
 1. created a test data to validate different conditions per scenarios 
 
 <!-- Feature -->
