@@ -21,7 +21,7 @@ When('I search for the name', async function () {
 })
 
 Then('User should receive back the name, age and count probability', function () {
-    assert.ok(result, "shoul;d always be defined")
+    assert.ok(result, "should always be defined")
     assert.deepStrictEqual(typeof result.name , "string")
     assert.deepStrictEqual(typeof result.age , 'number');
     assert.deepStrictEqual(typeof result.count,'number');
