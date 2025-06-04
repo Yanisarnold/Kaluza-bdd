@@ -1,7 +1,7 @@
 ## BDD KALUZA TEST 
 
 Installation & run 
-1. git clone https://github.com/christyouzan/Kaluza-Task.git
+1. git clone https://github.com/Yanisarnold/Kaluza-bdd.git
 2. npm install ->  Dependencies
 3. run live: npm run test:api
 4. run mocking : npm run test:mock
