@@ -1,6 +1,4 @@
 // function to search for the user name through the api
-
-
 const API_URL = `https://api.agify.io/?name=`
 
 export const searchUser = async (nameToSearch :  any) => {
