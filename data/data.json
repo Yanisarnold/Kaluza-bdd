@@ -1,0 +1,7 @@
+{
+  "Bob": { "name": "bob", "age": 60, "count": 100 },
+  "bob": { "name": "bob", "age": 60, "count": 100 },
+  "Bob123": { "name": "Bob123", "age": null, "count": 0 },
+  "Bob!": { "name": "", "age": null, "count": 0 },
+  " ": { "name": "", "age": null, "count": 0 }
+}

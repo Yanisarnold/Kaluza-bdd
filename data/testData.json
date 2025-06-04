@@ -1,0 +1,9 @@
+{
+  "name": "Bob",
+  "nameLowerCase": "bob",
+  "nameUpperCase": "BOB",
+  "nameWithNumber": "Bob123",
+  "nameWithSpecialCharacter": "Bob!",
+  "emptyString": "",
+  "specialCharacter": "!"
+}

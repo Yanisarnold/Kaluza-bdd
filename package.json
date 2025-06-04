@@ -1,0 +1,27 @@
+{
+  "name": "kaluza-task",
+  "version": "1.0.0",
+  "description": "BDD testing with TypeScript and Cucumber",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+
+    "test:api": "npx cucumber-js --profile default",
+    "test:mock": "npx cucumber-js --profile mock"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@types/chai": "^4.3.12",
+    "@types/node": "^22.15.29",
+    "@types/sinon": "^17.0.4",
+    "chai": "^4.3.8",
+    "sinon": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
