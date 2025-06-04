@@ -51,4 +51,6 @@ Validating the api {Status}
 3. 422 Unprocessable Content { "error": "Invalid 'name' parameter" } - 
 4. Verify user can search for multiple users name [micheal ,  Jean ]
 5. ci/cd 
-6. 
+
+Note: implement the last scenario regarding to the 429 
+
