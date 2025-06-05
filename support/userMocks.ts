@@ -16,6 +16,6 @@ const mockResponses: Record<string, UserData> = {
 // created a basic function as a fetch functionality to map out the expected result
 //  this function takes the name and return mockResponses to test different scenarios 
 // Modeling the fetch api 
-export const userMockSearch = async (nameToSearch: any) => {
-  return  mockResponses[nameToSearch];
+export const userMockSearch = async (nameToSearch: any) : Promise<UserData | undefined> => {
+  return mockResponses[nameToSearch];
 }

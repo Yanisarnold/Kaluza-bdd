@@ -15,6 +15,7 @@ Given(/^I search for a name "([^"]*)"$/, function (name) {
   nameToSearch = name;
 });
 
+// positive case 
 When('I search for the name', async function () {
   // searching for the user name through the api
   result = await searchUser(nameToSearch);
@@ -36,10 +37,9 @@ Then('User should receive back the same result as the previous search', function
 })
 
 
-// Scenario: Verify searching with an empty string and @*
+// Scenario: Verify searching with an empty string and @* - negative case 
 Given('I search for a name with an empty string', function () {
   nameToSearch = '';
-
 });
 
 Given('I search for a name with a number', function () {
